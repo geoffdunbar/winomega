@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1c55539f-e27b-4136-a4dd-0cae4ded4e2c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8290ebc2-3347-4a51-8c28-a72cad29af20}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b9e8924d-2904-4caf-aec5-6e6ec4a27ab5}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="pdcurses">
+      <UniqueIdentifier>{202a6d0c-e08f-4e3a-a372-0dffcc84449e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\abyss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aux1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aux2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\aux3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\char.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\city.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\command1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\command2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\command3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\country.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\effect1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\effect2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\effect3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\env.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\etc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gen1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gen2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\guild1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\guild2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\house.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\item.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\itemf1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\itemf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\itemf3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mmelee.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mmove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\move.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\movef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mspec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mstrike.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mtalk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\omega.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\priest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\save.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\site1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\site2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\village.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\addch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\addchstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\addstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\attr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\beep.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\bkgd.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\border.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\clear.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\color.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\delch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\deleteln.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\getch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\getstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\getyx.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\inch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\inchstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\initscr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\inopts.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\insch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\insstr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\instr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\kernel.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\mouse.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\move.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\outopts.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\overlay.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\pad.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\printw.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\refresh.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\scanw.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\scroll.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\slk.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\termattr.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\touch.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\util.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\pdcurses\window.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\wincon\pdcclip.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\wincon\pdcdisp.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\wincon\pdcgetsc.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\wincon\pdckbd.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\wincon\pdcscrn.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\wincon\pdcsetsc.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDCurses-3.9\wincon\pdcutil.c">
+      <Filter>pdcurses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\date.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\defs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glob.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iinit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\minit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDCurses-3.9\wincon\pdcwin.h">
+      <Filter>pdcurses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

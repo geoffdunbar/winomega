@@ -10,6 +10,9 @@
 # ifdef AMIGA
 #  include <curses210.h>
 # else
+#ifdef WIN32
+#  include <windows.h>
+#endif
 #  include <curses.h>
 # endif
 # include <sys/types.h>
