@@ -339,6 +339,13 @@
     <ClInclude Include="..\glob.h" />
     <ClInclude Include="..\iinit.h" />
     <ClInclude Include="..\minit.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winomega.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

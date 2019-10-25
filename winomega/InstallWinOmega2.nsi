@@ -2,13 +2,15 @@ Name "Omega For Windows"
 OutFile "c:\dev\build\winomega\WinOmega.exe"
 
 LicenseText "You must agree to this license before installing."
-LicenseData "..\lib\license.txt"
+LicenseData "license-winomega.txt"
 
 ComponentText "Choose your Installation Options." "Options:"
 
 InstallDir "c:\WinOmega"
 InstallDirRegKey HKCU "SOFTWARE\Merry Prankster Games\WinOmega" ""
 DirText "Select the directory to install Omega For Windows in:"
+
+Icon "C:\dev\winomega\winomega\icon.ico"
 
 Page license
 Page components
@@ -19,6 +21,7 @@ Section
   SetOutPath "$INSTDIR"
   File "c:\dev\build\winomega\output\Release\winomega.exe"
   File "readme.txt"
+  File "..\LICENSE"
   
   CreateDirectory "$INSTDIR\omegalib"
   SetOutPath "$INSTDIR\omegalib"
@@ -42,6 +45,7 @@ Section Uninstall
   Delete "$INSTDIR\uninst.exe"
   Delete "$INSTDIR\winomega.exe"
   Delete "$INSTDIR\readme.txt"
+  Delete "$INSTDIR\LICENSE"
   
   Delete "$INSTDIR\omegalib\*.*"
   RMDIR "$INSTDIR\omegalib"
