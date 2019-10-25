@@ -1,0 +1,16 @@
+Omega for Windows v0.3 (0.90.4)
+
+http://www.prankster.com/winomega
+
+Announcing the release of Omega for Windows v0.3 (0.90.4), a port of Omega for
+Windows.
+
+Omega is a rare roguelike game, designed to be played on a character-mode
+screen. I have compiled this version for Windows because (for whatever reason)
+I was unable to get the old DOS version working.
+
+Release 0.3 has a full fledged installer, as well as upgrades to the tooling
+used to compile. There are no feature or bug updates from 0.2.
+
+Thanks,
+Geoff Dunbar (gdunbar@prankster.com)
