@@ -8,7 +8,7 @@ by Laurence R. Brothers and others
 Uses PDCurses v3.9
 https://pdcurses.org/
 
-http://www.prankster.com/winomega
+https://www.prankster.com/winomega
 -------------------------------------------------------------------------------
 
 Omega is a rare roguelike game, designed to be played on a character-mode
